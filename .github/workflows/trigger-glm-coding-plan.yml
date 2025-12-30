@@ -21,4 +21,4 @@ jobs:
         curl -s "$OPENAI_API_BASE/chat/completions" \
           -H "Authorization: Bearer $OPENAI_API_KEY" \
           -H "Content-Type: application/json" \
-          -d '{"model":"'"$OPENAI_MODEL"'","messages":[{"role":"user","content":"说“你好”"}]}'
+          -d '{"model":"'"$OPENAI_MODEL"'","messages":[{"role":"user","content":"输出“你好”"}]}'
